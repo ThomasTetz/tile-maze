@@ -1,0 +1,24 @@
+// === header ===
+42 4D
+38 C0 00 00   length of file
+00 00 00 00   
+36 00 00 00   offset to start of pixel data
+28 00 00 00   size of data header
+80 00 00 00   width of image
+80 00 00 00   height of image
+01 00         number of colour planes
+18 00         number of bits per pixel
+00 00 00 00 
+02 F0 00 00 
+12 0B 00 00 
+12 0B 00 00 
+00 00 00 00
+00 00 00 00 
+
+// === pixel data ===
+
+pixel data (body of bitmap)
+
+// === terminating zeroes ===
+
+00 00         terminating zeros

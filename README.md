@@ -2,7 +2,7 @@
 Arduino based maze game using a joystick and LCD
 
 Thomas Tetz, Brett Baker  
-2015
+CMPUT 274 Final Project 2015
 
 # Description:
 
@@ -61,6 +61,7 @@ high score file is made in the event it is not found on the SD card.
 * wiring guide and image
   * ugweb.cs.ualberta.ca/~c274/web/ConcreteComputing/section/adafruit_lcd.htm
 * bitmap header explanation from www.tinaja.com/glib/expbmp.pdf
+* Makefile provided by University of Alberta CMPUT 274 instructors Fall 2015
 
 # Accessories: 
 * Arduino Mega Board (AMG)
@@ -92,9 +93,8 @@ high score file is made in the event it is not found on the SD card.
 * these files include the maps, their constraints, and the high scores
 
 # How to run code:
-* change directories to Project/
 * connect the arduino to the computer after wiring and loading the SD
-* type "make upload && serial-mon" and press enter
+* $ make upload && serial-mon
 * scroll with the joystick to select the map to play
 *    wait about a second before scrolling for the joystick to calibrate
 * click the joystick to load that map
